@@ -1,0 +1,1 @@
+/usr/bin/c++   -D_GNU_SOURCE -D_REENTRANT -D__XENO__  -Xlinker -rpath -Xlinker /usr/xenomai/lib  CMakeFiles/simple_motion.dir/simple_motion.cpp.o  -o simple_motion  -L/usr/xenomai/lib -rdynamic -lnative -lxenomai -lpthread -lrt -Wl,-rpath,/usr/xenomai/lib 
